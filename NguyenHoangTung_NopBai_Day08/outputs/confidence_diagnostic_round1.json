@@ -1,0 +1,7 @@
+{
+  "predictions_at_001": 339,
+  "max_confidence": 0.8369,
+  "predictions_at_025": 80,
+  "images": 20,
+  "checkpoint": ".local/ver2_20260925_180654_361708/train/weights/last.pt"
+}

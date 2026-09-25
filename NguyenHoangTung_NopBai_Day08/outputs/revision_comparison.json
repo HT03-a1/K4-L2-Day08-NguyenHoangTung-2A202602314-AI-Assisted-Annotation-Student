@@ -1,0 +1,107 @@
+{
+  "previous": {
+    "round": 1,
+    "model": "yolov8n fresh fine-tune, revised CVAT, 20 epochs",
+    "base_model": "yolov8n.pt",
+    "n_train_images": 12,
+    "n_train_boxes": 321,
+    "epochs": 20,
+    "imgsz": 960,
+    "strategies": [
+      "uncertainty"
+    ],
+    "test": {
+      "images": 20,
+      "ref_boxes": 403,
+      "ref_ignored_tiny": 14,
+      "ap50": 0.0248,
+      "conf_thr": 0.25,
+      "tp": 0,
+      "fp": 0,
+      "fn": 403,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "recall_by_size": {
+        "small": {
+          "recall": 0.0,
+          "ref_boxes": 66
+        },
+        "medium": {
+          "recall": 0.0,
+          "ref_boxes": 296
+        },
+        "large": {
+          "recall": 0.0,
+          "ref_boxes": 41
+        }
+      }
+    },
+    "reference": "data/test/labels",
+    "runtime": "cpu",
+    "python": "3.14.6",
+    "ultralytics": "8.4.161",
+    "torch": "2.14.0+cpu",
+    "seed": 8,
+    "batch": 16,
+    "workers": 0,
+    "blind_lock_valid_at_run": true,
+    "blind_scan_provenance": "post-review AI-assisted observation; not an original pre-label scan",
+    "student": "Nguyễn Hoàng Tùng",
+    "created": "2026-09-25T17:48:38",
+    "run_id": "20260925_174113_961383"
+  },
+  "current": {
+    "round": 1,
+    "model": "yolov8n fresh fine-tune, revised CVAT, 50 epochs",
+    "base_model": "yolov8n.pt",
+    "n_train_images": 12,
+    "n_train_boxes": 321,
+    "epochs": 50,
+    "imgsz": 960,
+    "strategies": [
+      "uncertainty"
+    ],
+    "test": {
+      "images": 20,
+      "ref_boxes": 403,
+      "ref_ignored_tiny": 14,
+      "ap50": 0.5106,
+      "conf_thr": 0.25,
+      "tp": 80,
+      "fp": 0,
+      "fn": 323,
+      "precision": 1.0,
+      "recall": 0.1985,
+      "f1": 0.3313,
+      "recall_by_size": {
+        "small": {
+          "recall": 0.0,
+          "ref_boxes": 66
+        },
+        "medium": {
+          "recall": 0.2128,
+          "ref_boxes": 296
+        },
+        "large": {
+          "recall": 0.4146,
+          "ref_boxes": 41
+        }
+      }
+    },
+    "reference": "data/test/labels",
+    "runtime": "cpu",
+    "python": "3.14.6",
+    "ultralytics": "8.4.161",
+    "torch": "2.14.0+cpu",
+    "seed": 8,
+    "batch": 16,
+    "workers": 0,
+    "blind_lock_valid_at_run": true,
+    "blind_scan_provenance": "post-review AI-assisted observation; not an original pre-label scan",
+    "student": "Nguyễn Hoàng Tùng",
+    "created": "2026-09-25T18:49:53",
+    "run_id": "20260925_180654_361708"
+  },
+  "note": "Labels and epoch budget both changed; this is not a controlled experiment isolating epoch count."
+}

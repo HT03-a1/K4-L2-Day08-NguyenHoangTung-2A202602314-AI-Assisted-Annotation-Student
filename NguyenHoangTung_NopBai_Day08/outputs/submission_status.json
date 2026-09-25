@@ -1,0 +1,14 @@
+{
+  "experiment_provenance_valid": true,
+  "official_checker_exit_code": 0,
+  "official_checker_output": "Đủ định dạng: 1 vòng, 12 ảnh đã sửa nhãn. Lệnh này không chấm điểm.\n",
+  "train_images": 12,
+  "train_boxes": 321,
+  "test_label_hashes_valid": 20,
+  "prediction_metrics_recomputed": [
+    0,
+    1
+  ],
+  "epochs_verified": 50,
+  "blind_scan_limitation": "Existing lock protects a post-review AI-assisted note; does not prove pre-label observation."
+}
